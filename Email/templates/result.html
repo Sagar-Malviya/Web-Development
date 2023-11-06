@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Email Extraction Result</title>
+</head>
+<body>
+    <h1>Email Addresses Extracted:</h1>
+    <ul>
+        {% for email in emails %}
+            <li>{{ email }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
